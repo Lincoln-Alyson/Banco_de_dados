@@ -13,7 +13,7 @@ INSERT INTO employee(Fname, Lname, Dno, Ssn, Salary) values("Leandro", "Adegas",
 INSERT INTO employee(Fname, Lname, Dno, Ssn, Salary) values('Kurt', 'Mesquita', 7, "345987160", "4000");
 select * from employee where Dno=7;
 -- atualizei o salrios aumentando em 23,5% os valores em referente ao antigo
-UPDATE employee SET Salary = round(Salary * 1.235, 7);
+UPDATE employee SET Salary = round(Salary * 1.235);
 SELECT * FROM employee;
 -- mudei a localização do administrativo para Itapajé
 select * from dept_locations;
